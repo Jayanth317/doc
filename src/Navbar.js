@@ -4,10 +4,12 @@ import { Router,Route,Routes, Link } from 'react-router-dom';
 import App from './App';
 import Page1 from './page1';
 import { Outlet } from 'react-router-dom';
+import './navbar.css';
+
 function Navbar() {
   return (
      
-    <div>
+    <div className='navbar'>
       <li>
         <Link to="/">Home</Link>
       </li>
