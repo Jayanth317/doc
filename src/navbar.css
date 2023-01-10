@@ -2,7 +2,7 @@
     box-sizing: border-box ;
 }
 .navbar{
-    background-color: antiquewhite;
+    background-color: black;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
@@ -12,12 +12,14 @@
 }
 .site-title{
     font-size: 35px;
+    height: 110%;
+    display: flex;
 }
 .nav-active{
     background: grey;
 }
 .navbar a{
-    color: inherit;
+    color: whitesmoke;
     text-decoration: none;
     height: 100%;
     display: flex;
@@ -30,8 +32,9 @@
     padding: 0;
     display: flex;
     gap: 1rem;
+    border-bottom: 2px whitesmoke solid ;
 }
 a:hover{
-    background: aquamarine;
+    background: whitesmoke;
     color: blue;
 }
