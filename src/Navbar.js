@@ -9,17 +9,13 @@ import './navbar.css';
 function Navbar() {
   return (
      
-    <div className='navbar'>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/page1">Page1</Link>
-      </li>
-      <li>
-        <Link to="/page2">Page2</Link>
-      </li>
-    </div>
+    <nav className='navbar '>
+        <a href="/" className='site-title '>Home</a>
+        <ul>
+			<li><a href="/page1">Page-1</a></li>
+        	<li><a href="/page2">Page-2</a></li>
+	  </ul>
+    </nav>
    
   );
 }
