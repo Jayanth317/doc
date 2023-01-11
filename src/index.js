@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Page1 from './page1';
-import { Route,Routes,Link } from 'react-router-dom';
+import { Route, Routes, Link } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-  <App />
+    <App />
   </BrowserRouter>
 );
 

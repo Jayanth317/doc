@@ -1,8 +1,9 @@
 import React from "react";
 import { ReactDOM } from "react";
+import './page1.css';
 function Page1() {
   return (
-    <div>
+    <div >
         Page1
     </div>
   );
